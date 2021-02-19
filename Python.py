@@ -23,7 +23,7 @@ def start_page():
                         <p><a href="promotion_image">Реклама с картинкой</a></p>
                         <p><a href="selection">Отбор астронавтов</a></p>
                         </br>
-                        <p>Домашних заданий пока нет(</p>
+                        <p>Домашних заданий пока нет</p>
                         </br>
                         <p><a href="load_photo">Загрузка фотографии</a></p>
                       </body>
