@@ -23,6 +23,9 @@ def start_page():
                         <p><a href="promotion_image">Реклама с картинкой</a></p>
                         <p><a href="selection">Отбор астронавтов</a></p>
                         </br>
+                        <p>Домашних заданий пока нет(</p>
+                        </br>
+                        <p><a href="load_photo">Загрузка фотографии</a></p>
                       </body>
                     </html>"""
 
@@ -224,12 +227,13 @@ def sample_file_upload():
                           <head>
                             <meta charset="utf-8">
                             <link rel="stylesheet" type="text/css" href="{url_for('static', filename='css/form.css')}" />
-                            <title>...</title>
+                            <title>Отбор космонавтов</title>
                           </head>
                           <body>
-                            <h1>Загрузим файл</h1>
+                            <h1 align="center">Загрузка фотографии</h1>
+                            <h2 align="center">для участия в миссии</h2>
                             <div>
-                            <form method="post" enctype="multipart/form-data">
+                            <form method="post" class="login_form" enctype="multipart/form-data">
                                <div class="form-group">
                                     <label for="photo">Выберите файл</label>
                                     <input type="file" class="form-control-file" id="photo" name="file">
@@ -249,11 +253,12 @@ def sample_file_upload():
                           <head>
                             <meta charset="utf-8">
                             <link rel="stylesheet" type="text/css" href="{url_for('static', filename='css/form.css')}" />
-                            <title>Пример загрузки файла</title>
+                            <title>Отбор космонавтов</title>
                           </head>
                           <body>
-                            <h1>Загрузим файл</h1>
-                            <form method="post" enctype="multipart/form-data">
+                            <h1 align="center">Загрузка фотографии</h1>
+                            <h2 align="center">для участия в миссии</h2>
+                            <form method="post" class="login_form" enctype="multipart/form-data">
                                <div class="form-group">
                                     <label for="photo">Выберите файл</label>
                                     <input type="file" class="form-control-file" id="photo" name="file">
